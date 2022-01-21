@@ -1,0 +1,51 @@
+.homeMain {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+.homeMain > div {
+  width: 50%;
+}
+.homeImg img {
+  width: 100%;
+  height: auto;
+}
+
+.homeContent h2 {
+  text-align: center;
+}
+
+.contentSpan,
+.btnSpan,
+.admin {
+  position: relative;
+  top: 150px;
+}
+
+.btnSpan,
+.admin {
+  position: relative;
+  left: 150px;
+}
+.btn {
+  background-color: #a34747;
+  color: white;
+  margin: 30px;
+  /* border: 2px solid black; */
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.contentSpan p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 30px;
+}
+
+.btn:hover {
+  cursor: default;
+}
+.btnSpan a {
+  text-decoration: none;
+  color: white;
+}

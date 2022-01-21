@@ -1,0 +1,9 @@
+.orderCard {
+  border-bottom: 1px solid black;
+}
+.orderOtherInfo {
+  float: right;
+}
+.orderMainInfo {
+  font-weight: bold;
+}

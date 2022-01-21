@@ -1,0 +1,36 @@
+.formData {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formData {
+  text-align: center;
+  /* border: 1px solid black;
+  margin: 0 200px; */
+}
+.formData input,
+button {
+  display: block;
+  margin: 40px;
+  height: 39px;
+  width: 300px;
+  text-align: center;
+  margin-left: 510px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.formData h3 {
+  margin-left: 510px;
+  width: 300px;
+  height: 40px;
+  padding-top: 15px;
+  background-color: #a34747;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #a34747;
+  color: white;
+}

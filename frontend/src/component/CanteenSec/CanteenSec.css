@@ -1,0 +1,32 @@
+.CanteenSecMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.CanteenSecCard {
+  width: 300px;
+  background-color: wheat;
+  margin: 30px;
+  text-align: center;
+  color: black;
+}
+.CanteenSecCard img {
+  width: 100px;
+  height: auto;
+}
+.CanteenSecCard a {
+  text-decoration: none;
+  color: black;
+}
+@keyframes cardShadow {
+  from {
+  }
+  to {
+  }
+}
+.CanteenSecCard:hover {
+  box-shadow: 3px 7px 4px -3px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 3px 7px 4px -3px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 3px 7px 4px -3px rgba(0, 0, 0, 0.48);
+}

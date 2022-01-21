@@ -1,0 +1,71 @@
+.canteenPageMain {
+  display: flex;
+  flex-direction: column;
+}
+.canteenPageHeader {
+  background: #a34747;
+  width: 100%;
+  height: 200px;
+}
+.canteenPageHeader img {
+  height: 150px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.canteenName {
+  position: relative;
+  bottom: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  margin-left: 90px;
+}
+.location {
+  position: relative;
+  bottom: 40px;
+  color: white;
+  margin-left: 90px;
+}
+.canteenPageMenu > div {
+  /* background-color: yellow; */
+  padding-left: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.eachMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orderbar {
+  margin-right: 100px;
+  /* background: yellow; */
+  text-align: center;
+  width: 40%;
+}
+
+.orderbar > span {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.plus:hover,
+.minus:hover {
+  cursor: pointer;
+}
+.orderBtn {
+  border: 1px solid black;
+  border-radius: 20px;
+
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+  left: 220px;
+}
+
+.orderBtn:hover {
+  background: #a34747;
+  color: white;
+  cursor: pointer;
+}

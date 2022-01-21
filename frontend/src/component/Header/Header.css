@@ -1,0 +1,22 @@
+.headerMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.headerMain a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+.logoutBtn {
+  text-decoration: none;
+  color: black;
+}
+.logoutBtn:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
